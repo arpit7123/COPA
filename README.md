@@ -1,7 +1,10 @@
 # COPA
 
 COPA.zip contains:
+
      a) copa_with_qs_and_ks.json file which contains a copa problem and automatically extracted knowledge sentences corresponding to the copa problems. It contains an array of objects where each object follows the template below.
+     
+  '''json
   {
     "alt2_k_sents": [
       {
@@ -28,6 +31,7 @@ COPA.zip contains:
     ],
     "id": "1"
   }
+  '''
 
      b) copa_sents directory in which each file represents a copa sentence (premise + an alternative)
      c) copa_sents_qasrl directory in which each file represents the qasrl output of each file in copa_sents directory
